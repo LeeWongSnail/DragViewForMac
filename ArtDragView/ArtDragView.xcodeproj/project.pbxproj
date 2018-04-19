@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBA925D620883363005871C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA925D520883363005871C2 /* AppDelegate.m */; };
+		EBA925D920883363005871C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA925D820883363005871C2 /* ViewController.m */; };
+		EBA925DB20883364005871C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBA925DA20883364005871C2 /* Assets.xcassets */; };
+		EBA925DE20883364005871C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBA925DC20883364005871C2 /* Main.storyboard */; };
+		EBA925E120883364005871C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA925E020883364005871C2 /* main.m */; };
+		EBA925EC20883364005871C2 /* ArtDragViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA925EB20883364005871C2 /* ArtDragViewTests.m */; };
+		EBA925F720883364005871C2 /* ArtDragViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA925F620883364005871C2 /* ArtDragViewUITests.m */; };
+		EBA9260D208835F9005871C2 /* ArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA9260C208835F9005871C2 /* ArtView.m */; };
+		EBA92618208898F8005871C2 /* ArtDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA92614208898F8005871C2 /* ArtDragView.m */; };
+		EBA92619208898F8005871C2 /* ArtDragViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA92617208898F8005871C2 /* ArtDragViewDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBA925E820883364005871C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBA925C920883363005871C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBA925D020883363005871C2;
+			remoteInfo = ArtDragView;
+		};
+		EBA925F320883364005871C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBA925C920883363005871C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBA925D020883363005871C2;
+			remoteInfo = ArtDragView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBA925D120883363005871C2 /* ArtDragView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtDragView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA925D420883363005871C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBA925D520883363005871C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBA925D720883363005871C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EBA925D820883363005871C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EBA925DA20883364005871C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBA925DD20883364005871C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBA925DF20883364005871C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBA925E020883364005871C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBA925E220883364005871C2 /* ArtDragView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArtDragView.entitlements; sourceTree = "<group>"; };
+		EBA925E720883364005871C2 /* ArtDragViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtDragViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA925EB20883364005871C2 /* ArtDragViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtDragViewTests.m; sourceTree = "<group>"; };
+		EBA925ED20883364005871C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBA925F220883364005871C2 /* ArtDragViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtDragViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA925F620883364005871C2 /* ArtDragViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtDragViewUITests.m; sourceTree = "<group>"; };
+		EBA925F820883364005871C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBA9260B208835F9005871C2 /* ArtView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtView.h; sourceTree = "<group>"; };
+		EBA9260C208835F9005871C2 /* ArtView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtView.m; sourceTree = "<group>"; };
+		EBA92614208898F8005871C2 /* ArtDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtDragView.m; sourceTree = "<group>"; };
+		EBA92615208898F8005871C2 /* ArtDragViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtDragViewDelegate.h; sourceTree = "<group>"; };
+		EBA92616208898F8005871C2 /* ArtDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtDragView.h; sourceTree = "<group>"; };
+		EBA92617208898F8005871C2 /* ArtDragViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtDragViewDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBA925CE20883363005871C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA925E420883364005871C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA925EF20883364005871C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBA925C820883363005871C2 = {
+			isa = PBXGroup;
+			children = (
+				EBA925D320883363005871C2 /* ArtDragView */,
+				EBA925EA20883364005871C2 /* ArtDragViewTests */,
+				EBA925F520883364005871C2 /* ArtDragViewUITests */,
+				EBA925D220883363005871C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBA925D220883363005871C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBA925D120883363005871C2 /* ArtDragView.app */,
+				EBA925E720883364005871C2 /* ArtDragViewTests.xctest */,
+				EBA925F220883364005871C2 /* ArtDragViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBA925D320883363005871C2 /* ArtDragView */ = {
+			isa = PBXGroup;
+			children = (
+				EBA9260420883446005871C2 /* ArtDragView */,
+				EBA925D420883363005871C2 /* AppDelegate.h */,
+				EBA925D520883363005871C2 /* AppDelegate.m */,
+				EBA925D720883363005871C2 /* ViewController.h */,
+				EBA925D820883363005871C2 /* ViewController.m */,
+				EBA925DA20883364005871C2 /* Assets.xcassets */,
+				EBA925DC20883364005871C2 /* Main.storyboard */,
+				EBA925DF20883364005871C2 /* Info.plist */,
+				EBA925E020883364005871C2 /* main.m */,
+				EBA925E220883364005871C2 /* ArtDragView.entitlements */,
+				EBA9260B208835F9005871C2 /* ArtView.h */,
+				EBA9260C208835F9005871C2 /* ArtView.m */,
+			);
+			path = ArtDragView;
+			sourceTree = "<group>";
+		};
+		EBA925EA20883364005871C2 /* ArtDragViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBA925EB20883364005871C2 /* ArtDragViewTests.m */,
+				EBA925ED20883364005871C2 /* Info.plist */,
+			);
+			path = ArtDragViewTests;
+			sourceTree = "<group>";
+		};
+		EBA925F520883364005871C2 /* ArtDragViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBA925F620883364005871C2 /* ArtDragViewUITests.m */,
+				EBA925F820883364005871C2 /* Info.plist */,
+			);
+			path = ArtDragViewUITests;
+			sourceTree = "<group>";
+		};
+		EBA9260420883446005871C2 /* ArtDragView */ = {
+			isa = PBXGroup;
+			children = (
+				EBA92616208898F8005871C2 /* ArtDragView.h */,
+				EBA92614208898F8005871C2 /* ArtDragView.m */,
+				EBA92615208898F8005871C2 /* ArtDragViewDelegate.h */,
+				EBA92617208898F8005871C2 /* ArtDragViewDelegate.m */,
+			);
+			path = ArtDragView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBA925D020883363005871C2 /* ArtDragView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBA925FB20883364005871C2 /* Build configuration list for PBXNativeTarget "ArtDragView" */;
+			buildPhases = (
+				EBA925CD20883363005871C2 /* Sources */,
+				EBA925CE20883363005871C2 /* Frameworks */,
+				EBA925CF20883363005871C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArtDragView;
+			productName = ArtDragView;
+			productReference = EBA925D120883363005871C2 /* ArtDragView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBA925E620883364005871C2 /* ArtDragViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBA925FE20883364005871C2 /* Build configuration list for PBXNativeTarget "ArtDragViewTests" */;
+			buildPhases = (
+				EBA925E320883364005871C2 /* Sources */,
+				EBA925E420883364005871C2 /* Frameworks */,
+				EBA925E520883364005871C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBA925E920883364005871C2 /* PBXTargetDependency */,
+			);
+			name = ArtDragViewTests;
+			productName = ArtDragViewTests;
+			productReference = EBA925E720883364005871C2 /* ArtDragViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBA925F120883364005871C2 /* ArtDragViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBA9260120883364005871C2 /* Build configuration list for PBXNativeTarget "ArtDragViewUITests" */;
+			buildPhases = (
+				EBA925EE20883364005871C2 /* Sources */,
+				EBA925EF20883364005871C2 /* Frameworks */,
+				EBA925F020883364005871C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBA925F420883364005871C2 /* PBXTargetDependency */,
+			);
+			name = ArtDragViewUITests;
+			productName = ArtDragViewUITests;
+			productReference = EBA925F220883364005871C2 /* ArtDragViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBA925C920883363005871C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = LeeWong;
+				TargetAttributes = {
+					EBA925D020883363005871C2 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					EBA925E620883364005871C2 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = EBA925D020883363005871C2;
+					};
+					EBA925F120883364005871C2 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = EBA925D020883363005871C2;
+					};
+				};
+			};
+			buildConfigurationList = EBA925CC20883363005871C2 /* Build configuration list for PBXProject "ArtDragView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBA925C820883363005871C2;
+			productRefGroup = EBA925D220883363005871C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBA925D020883363005871C2 /* ArtDragView */,
+				EBA925E620883364005871C2 /* ArtDragViewTests */,
+				EBA925F120883364005871C2 /* ArtDragViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBA925CF20883363005871C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA925DB20883364005871C2 /* Assets.xcassets in Resources */,
+				EBA925DE20883364005871C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA925E520883364005871C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA925F020883364005871C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBA925CD20883363005871C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA925D920883363005871C2 /* ViewController.m in Sources */,
+				EBA92618208898F8005871C2 /* ArtDragView.m in Sources */,
+				EBA925E120883364005871C2 /* main.m in Sources */,
+				EBA92619208898F8005871C2 /* ArtDragViewDelegate.m in Sources */,
+				EBA9260D208835F9005871C2 /* ArtView.m in Sources */,
+				EBA925D620883363005871C2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA925E320883364005871C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA925EC20883364005871C2 /* ArtDragViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA925EE20883364005871C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA925F720883364005871C2 /* ArtDragViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBA925E920883364005871C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBA925D020883363005871C2 /* ArtDragView */;
+			targetProxy = EBA925E820883364005871C2 /* PBXContainerItemProxy */;
+		};
+		EBA925F420883364005871C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBA925D020883363005871C2 /* ArtDragView */;
+			targetProxy = EBA925F320883364005871C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBA925DC20883364005871C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBA925DD20883364005871C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBA925F920883364005871C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EBA925FA20883364005871C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EBA925FC20883364005871C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ArtDragView/ArtDragView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XWNPFKK4U5;
+				INFOPLIST_FILE = ArtDragView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.ArtDragView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBA925FD20883364005871C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ArtDragView/ArtDragView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XWNPFKK4U5;
+				INFOPLIST_FILE = ArtDragView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.ArtDragView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EBA925FF20883364005871C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XWNPFKK4U5;
+				INFOPLIST_FILE = ArtDragViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.ArtDragViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArtDragView.app/Contents/MacOS/ArtDragView";
+			};
+			name = Debug;
+		};
+		EBA9260020883364005871C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XWNPFKK4U5;
+				INFOPLIST_FILE = ArtDragViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.ArtDragViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArtDragView.app/Contents/MacOS/ArtDragView";
+			};
+			name = Release;
+		};
+		EBA9260220883364005871C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XWNPFKK4U5;
+				INFOPLIST_FILE = ArtDragViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.ArtDragViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ArtDragView;
+			};
+			name = Debug;
+		};
+		EBA9260320883364005871C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XWNPFKK4U5;
+				INFOPLIST_FILE = ArtDragViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.ArtDragViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ArtDragView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBA925CC20883363005871C2 /* Build configuration list for PBXProject "ArtDragView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBA925F920883364005871C2 /* Debug */,
+				EBA925FA20883364005871C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBA925FB20883364005871C2 /* Build configuration list for PBXNativeTarget "ArtDragView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBA925FC20883364005871C2 /* Debug */,
+				EBA925FD20883364005871C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBA925FE20883364005871C2 /* Build configuration list for PBXNativeTarget "ArtDragViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBA925FF20883364005871C2 /* Debug */,
+				EBA9260020883364005871C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBA9260120883364005871C2 /* Build configuration list for PBXNativeTarget "ArtDragViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBA9260220883364005871C2 /* Debug */,
+				EBA9260320883364005871C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBA925C920883363005871C2 /* Project object */;
+}
