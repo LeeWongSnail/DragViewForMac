@@ -19,7 +19,6 @@
     view.wantsLayer = YES;
     view.layer.backgroundColor = [NSColor redColor].CGColor;
     [self.view addSubview:view];
-    // Do any additional setup after loading the view.
     
     
     view.beginDragBlock = ^(ArtDragView *dragView) {
